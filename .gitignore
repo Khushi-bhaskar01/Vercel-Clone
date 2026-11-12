@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Environment variables (secrets!) - keep .env.example
+.env
+.env.*
+!.env.example
+*.env
+!*.env.example
+
+# Build output
+dist/
+dist-ssr/
+build/
+output/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Accidental Windows duplicate copies like "index (2).js"
+*(2)*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sw?
+*.local
