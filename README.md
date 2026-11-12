@@ -1,4 +1,4 @@
-# Vercel Clone
+# DeployForge
 
 A mini Vercel: paste a GitHub repo URL, and it gets cloned, built in an isolated container on AWS ECS, uploaded to S3, and served at its own subdomain — with build logs streamed live to the browser.
 
